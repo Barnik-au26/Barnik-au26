@@ -1,0 +1,71 @@
+Week-2 day-1 coding Challange Solution  
+
+Date: 10/09/2021     
+Submitted by : Barnik
+
+                                                                         
+
+Q-1 ) Write brief description of all the below commands. (10 Marks) 
+
+1. Git pull 
+
+Whenever there are changes are made to the remote repository and we want that changes to reflect on our local repository as well then by using git pull command we can update our local repository from the remote repository. 
+
+2. Git push 
+ 
+Whenever we make changes to the local repository and commit those changes and then is we want to update those commited changes to the remote repository the by using git push command we can update the remote repository from our local repository.
+
+3. Git merge 
+
+Git merge is used to mere the contents of different branches into one branch. Suppose you have two branches and “A” and “B”. So the command to merge branch A into Branch B is ,  
+
+Command:
+git merge <branch into which you want to merge> 
+
+4.Git log 
+
+Git log is used to view all the commits and commit history  in the repository. 
+
+5. Git status 
+
+Git status command is used to view the status of the files in the repository wheather the files are in the tracked , untracked, staged and unstaged condition.
+
+6. Git commit 
+
+Git commit is used to save the changes to the file and can be pushed to a remote repository. It is a point in your projec where you can go if you fing a bug or want to change something.
+
+7. Git init
+ 
+Git init : in this command the “init” stands for initialise. Using this command one can initialise a new repository.
+
+8. Git clone 
+Git clone: this command is used when we want to copy or pull all the files from the remote repository to the local repository for the first time. This can be used by pasting “http” or “ssh” file of remote repository next to git clone.
+
+
+
+
+
+
+9. Git branch
+
+Git branch: this command if used just like this lists all the branches that are there in that directory and if we want to make a new branch using this command we need to add a branchname after it 
+
+e.g :  git branch <branchname>
+
+10. Git Checkout
+
+Git checkout:  This command is used to move from one branch of the directory to the other. Suppose we are in branch “A” and want to go to branch “B” then we have got to write:
+
+Git checkout B
+
+
+
+Q-2)Write a simple calculator with +, -, *, / support in python       (5 marks)
+
+a = input("Enter first Number")
+b = input("Enter second Number")
+
+print("sum of two Number =", int(a) + int(b))
+print("Subtraction of two Number =", int(a) - int(b))
+print("Multiplication of two Number =", int(a) * int(b))
+print("Divison of two number =", int(a) / int(b))

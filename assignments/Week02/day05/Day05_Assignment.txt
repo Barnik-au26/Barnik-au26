@@ -1,0 +1,67 @@
+
+
+Week 2- Day 2 : Coding Challenge
+
+Q-1 )Write a program that takes a floating point number as input and prints its integer part only.
+
+
+a = float(input())
+b = int(a)
+print(b)
+
+
+Q-2 ) Write a simple program to explain(using comments) the working of type() function
+
+
+INPUT
+
+a = "21sads"
+
+print (type(a))
+
+# type() function tells us the type of value that we assign to a particular function, weather it is a string , number or boolean.
+# in this this example it says it belongs to string class.
+
+
+OUTPUT
+
+
+<class 'str'>
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
+
+
+Q-3)Write a simple calculator with +, -, *, / support in python Use input() function to take inputs from the user
+
+
+INPUT
+
+
+a = input("Enter first Number")
+b = input("Enter second Number")
+
+print("sum of two Number =", int(a) + int(b))
+print("Subtraction of two Number =", int(a) - int(b))
+print("Multiplication of two Number =", int(a) * int(b))
+print("Divison of two number =", int(a) / int(b))
+
+
+OUTPUT
+
+   
+Enter first Number
+10
+Enter second Number
+2
+sum of two Number = 12
+Subtraction of two Number = 8
+Multiplication of two Number = 20
+Divison of two number = 5.0
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
+
+

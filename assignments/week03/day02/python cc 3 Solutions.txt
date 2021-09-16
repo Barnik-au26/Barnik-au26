@@ -1,0 +1,74 @@
+Week 2- Day 3 : Coding Challenge
+(Maximum marks -15)
+ Q-1 )Write a program to check if a number is divisible by 4 or not? (5 Marks) (Easy)
+
+ ANSWER
+
+	INPUT
+
+	a = int(input("Enter the number"))
+
+	if a%4 ==0:
+    		print ("Number is Divisible By 4")
+	else:
+    		print("Number is not Divisible By 4")
+
+	OUTPUT
+
+	   
+	Enter the number
+	580
+	Number is Divisible By 4
+
+ Q-2 ) Write a program to check if a number is even or odd? (5 Marks) (Easy)
+	
+	INPUT
+	
+		a = int(input("Enter the number"))
+
+		if a%2 == 0:
+    			if a != 0:
+        			print ("Number is even")
+    			else:
+        			print ("Number is neither even nor Odd")
+
+		else:
+    			print("Number is Odd")
+
+	OUTPUT
+		
+		Enter the number
+		55
+		Number is Odd
+
+
+
+
+
+ Q-3)Write a program to print truth table of OR logical operator (5 marks) (Easy)
+
+
+ ANSWER
+
+
+	INPUT
+
+	print("""
+		Table of OR operator
+		""")
+	print("""
+         	T F   T
+         	F T   T
+         	F F   F
+         	T T   T
+        	""")
+
+	OUTPUT
+		
+	 Table of OR operator
+
+
+         T F   T
+         F T   T
+         F F   F
+         T T   T
