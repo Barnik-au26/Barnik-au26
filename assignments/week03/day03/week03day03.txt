@@ -1,0 +1,115 @@
+ 	Week 3- Day 3 : Coding Challenge
+
+	(Maximum marks -15)
+
+
+
+	)Write a program to find biggest number out of three positive numbers, given by user	(5Marks) (Easy) Input:
+	a,b,c three numbers output:
+	biggest out of them
+
+	example:
+	Input:
+	a = 10
+	b = 5
+	c = 15
+	Output
+	15
+
+
+
+	ANSWER
+
+	INPUT
+
+	a = 100
+	b = 25
+	c = 15
+
+	if a > b:
+   		if a > c:
+        		print("a is the greatest")
+    		else:
+        		print("c is the greatest")
+	else:
+    		if b > c:
+        		print("b is the greatest")
+    		else:
+        		print("c is the greatest")
+
+
+
+
+	) Write a program to find second biggest number out of three positive numbers, given by user	
+	(5 Marks) (Easy) Input:
+	a,b,c three numbers output:
+	second biggest out of them
+
+	example:
+	Input:
+	a = 10
+	b = 5
+	c = 15
+
+	Output
+	10
+	
+
+	ANSWER
+
+	INPUT
+
+	a = 10
+	b = 5
+	c = 15
+
+
+	if a > b:
+    		if a < c:
+        		print(a, "is second greatest")
+	elif b > a:
+    		if b < c:
+        		print(b, "is second greatest")
+    	else:
+        	print(c, "is second greatest")
+
+
+	OUTPUT
+
+	PS S:\WEB DEVELOPMENT COURSE\Python> py test.py
+	10 is second greatest
+
+
+
+
+
+
+
+	Q-3) FizzBuzz - if a number is divisible by 3 - print Fizz, if a number is divisible by 5 - print Fuzz,if a number is divisible by both - print
+	Fizz-Buzz.(5 marks)
+	(Easy)
+
+
+	ANSWER
+
+	INPUT
+	
+	if a % 3 == 0:
+    		if a % 5 == 0:
+        		print("FizBuzz")
+    		else:
+        		print("Fizz")
+	elif a % 5 == 0:
+    		print("Buzz")
+
+	OUTPUT
+	
+	PS S:\WEB DEVELOPMENT COURSE\Python> py test.py
+	10
+	Buzz
+	PS S:\WEB DEVELOPMENT COURSE\Python> py test.py
+	9
+	Fizz
+	PS S:\WEB DEVELOPMENT COURSE\Python> py test.py
+	15
+	FizBuzz
