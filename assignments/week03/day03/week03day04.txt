@@ -1,0 +1,149 @@
+	Week 3- Day 4  : Coding Challenge
+
+
+
+
+
+	(Maximum marks -15)
+	Q1)Write a program to print “hello world” n times, take n as input from the user	(5 Marks)
+	(Easy)
+	
+	ANSWER
+
+
+
+	# INPUT
+		n = int(input())
+
+		for i in range(n):
+		    print("hello world")
+
+	# OUTPUT
+
+	PS S:\WEB DEVELOPMENT COURSE\Python> py test.py
+	5
+	hello world
+	hello world
+	hello world
+	hello world
+	hello world
+
+
+
+
+
+
+
+
+	Q2) Write a program to print n powers of 2, take n as input from the user. (5 Marks)
+	(Easy)
+	Input:
+	3
+	
+	ANSWER
+
+	
+	# INPUT
+	n = int(input())
+	power = 1
+	for i in range(power, n + 1, 1):
+	    power = power * 2
+	    print(power)
+
+	# OUTPUT
+	PS S: \WEB DEVELOPMENT COURSE\Python > py test.py
+	8
+	2
+	4
+	8
+	16
+	32
+	64
+	128
+	256
+
+
+
+
+	Output:
+	2
+	4
+	8
+
+	Explanation
+	21 = 2
+	22 = 4
+	23 = 8
+
+
+
+
+
+
+
+
+
+	Q3) FizzBuzz - take n as input from the user, From 1 to n, print Fizz if a number is divisible by 3,
+	print Fuzz if a number is divisible by 5.
+	print FizzFuzz if a number is divisible by 3 and 5 both
+	(5 marks) (Easy) 
+	input
+	15
+	
+
+	ANSWER
+
+
+
+
+	# INPUT
+	n = int(input())
+
+	for i in range(1, n + 1, 1):
+    		if i % 3 == 0 and i % 5 == 0:
+        		print("FizzBuzz")
+    		elif i % 5 == 0:
+        		print("Buzz")
+    		elif i % 3 == 0:
+        		print("Fizz")
+    		else:
+        		print(i)
+	# OUTPUT
+
+
+   	 PS S:\WEB DEVELOPMENT COURSE\Python> py test.py
+   	 15
+   	 1
+   	 2
+   	 Fizz
+    	 4
+    	 Buzz
+    	 Fizz
+   	 7
+    	 8
+   	 Fizz
+   	 Buzz
+   	 11
+   	 Fizz
+    	 13
+    	 14
+   	 FizzBuzz
+	
+
+
+
+
+
+
+
+output
+
+	1
+	2
+	Fizz 4
+	Fuzz Fizz 7
+	8
+	Fizz Fuzz 11
+	Fizz 13
+	14
+	FizzFuzz
