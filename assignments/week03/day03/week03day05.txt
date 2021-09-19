@@ -1,0 +1,77 @@
+	
+	 Week 3- Day 4 : Coding Challenge
+
+
+
+
+	Q1. What will be the output ? (Easy)	(5 marks)
+
+          i = 2
+          p = 1
+
+          while i <= 10 :
+               p = p*i
+               i =  i + 1
+
+         print(p)
+
+	
+
+	ANSWER:
+
+
+	3628000
+
+
+	
+
+
+	Q2. What will be the output ? (Easy)	(5 marks)
+
+	Sum1 = 0
+	Sum2 = 0
+
+	i = 1
+
+	while i < 10 :
+
+    		if i%2 == 0 :
+       			Sum1 = sum1+ i
+
+    		else :
+       			Sum2 = sum2 + i
+              
+              	i = i + 1   
+         
+          print( Sum1, Sum2 )
+
+
+	ANSWER
+
+	20 25
+
+
+
+	
+
+	Q3. Print the product of first 10 even numbers. ( EASY )   
+
+	ANSWER
+	
+	
+	INPUT
+
+
+	product = 1
+	for i in range(1, 11, 1):
+   			product = product * (i * 2)
+	print(product)
+	
+
+	OUTPUT
+	
+	PS S:\WEB DEVELOPMENT COURSE\Python> py test.py
+	3715891200
+
+
+	
